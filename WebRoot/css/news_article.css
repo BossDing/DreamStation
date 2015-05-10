@@ -1,0 +1,85 @@
+.body {
+	width: 1004px;
+	height: 1482px;
+	border: 1px solid #315381;
+	margin: 0 auto;
+	margin-top: 0px;
+		text-align:left;
+	background-image: url(../image/News.jpg);
+}
+/* 导航栏*/
+.nav {
+	margin-top: 82px;
+	margin-left: 250px;
+	width: 530px;
+	height: 50px;
+	transform: rotate(6.6deg);
+	-ms-transform: rotate(6.6deg); /* Internet Explorer */
+	-moz-transform: rotate(6.6deg); /* Firefox */
+	-webkit-transform: rotate(6.6deg); /* Safari ºÍ Chrome */
+	-o-transform: rotate(6.6deg); /* Opera */
+}
+/* 整个div */
+.content {
+	width: 699px;
+	height: 804px;
+	margin-left: 144px;
+	margin-top: 314px;
+}
+
+/* 空白部分 */
+.black {
+	width: 698px;
+	height: 30px;
+}
+/* 新闻标题部分和logo */
+.title {
+	width: 698px;
+	height: 30px;
+	margin-left: 1px;
+	font-size: 20px;
+	color: #508AC4;
+}
+/* 标题旁边的logo标志 */
+.logo {
+	height: 35px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url(../image/news_title_pic.png);
+	float: left;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+/* 新闻部分 */
+.title_word {
+	width: 500px;
+	height: 25px;
+	float: left;
+}
+/* 正文部分 */
+.article {
+	width: 650px;
+	height: 680px;
+	margin-left: 25px;
+	line-height: 25px;
+}
+/* 分页 */
+.paging {
+	width: 698px;
+	height: 40px;
+	margin-left: 1px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.copyright{
+	margin-top:100px;
+	margin-left:300px;
+	width: 380px;
+	height:50px;
+	/* border:1 solid red; */
+	float:left;
+	text-align:center;
+}

@@ -1,0 +1,70 @@
+#background {
+	width: 1004px;
+	height: 1482px;
+	border: 1px solid;
+	border-color: rgb(26, 57, 103);
+	text-align: left;
+	background-repeat: no-repeat;
+	background-image: url(../image/technology.jpg);
+}
+
+.nav {
+	margin-top: 82px;
+	margin-left: 250px;
+	width: 530px;
+	height: 50px;
+	transform: rotate(6.6deg);
+	-ms-transform: rotate(6.6deg); /* Internet Explorer */
+	-moz-transform: rotate(6.6deg); /* Firefox */
+	-webkit-transform: rotate(6.6deg); /* Safari ºÍ Chrome */
+	-o-transform: rotate(6.6deg); /* Opera */
+}
+
+.content {
+	margin-top: 350px;
+	margin-left: 172px;
+	width: 640px;
+	height: 720px;
+	
+
+}
+
+.pagebutton01{
+	width: 640px;
+	height: 40px;
+	margin-left: 172px;
+	margin-top: 10px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+	text-decoration:underline;;
+}
+
+.pagebutton01 a:hover{
+	color: blue;
+	text-decoration:underline;
+}
+.copyright{
+	margin-top: 140px;
+	margin-left:320px;
+	width: 380px;
+	height:50px;
+	/* border:1 solid red; */
+	float:left;
+	text-align:center;
+	
+}

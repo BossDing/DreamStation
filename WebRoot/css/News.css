@@ -1,0 +1,120 @@
+.body {
+	width: 1004px;
+	height: 1482px;
+	border: 1px solid #315381;
+	margin: 0 auto;
+	margin-top: 0px;
+	text-align:left;
+	background-image: url(../image/News.jpg);
+}
+/* 导航栏*/
+.nav {
+	margin-top: 82px;
+	margin-left: 250px;
+	width: 530px;
+	height: 50px;
+	transform: rotate(6.6deg);
+	-ms-transform: rotate(6.6deg); /* Internet Explorer */
+	-moz-transform: rotate(6.6deg); /* Firefox */
+	-webkit-transform: rotate(6.6deg); /* Safari ºÍ Chrome */
+	-o-transform: rotate(6.6deg); /* Opera */
+}
+/* 整个大的div */
+.content {
+	width: 699px;
+	height: 780px;
+	margin-left: 143px;
+	margin-top: 310px;
+	float: left;
+}
+/* 空白部分 */
+.black {
+	width: 698px;
+	height: 70px;
+	margin-left: 1px;
+}
+/* 作者，日期，点击量 */
+.row2 {
+	width: 650px;
+	height: 37px;
+	margin-left: 70px;
+	font-size: 15px;
+}
+/* 包括新闻标题和logo */
+.row1 {
+	width: 650px;
+	height: 25px;
+	margin-left: 20px;
+	background-color: #E7E9EE;
+	font-size: 15px;
+	font-weight: bold;
+}
+/* DS图标 */
+.logo {
+	height: 15px;
+	width: 30px;
+	background-repeat: no-repeat;
+	margin-left:8px;
+	margin-top: 1px;
+	background-image: url(../image/news_title_pic.png);
+	float: left;
+}
+/* 新闻标题 */
+.title {
+	width: 590px;
+	float: left;
+	margin-left: 8px;
+}
+/* 作者，日期等的文字格式 */
+.WordStyle {
+	width: 80px;
+	margin-left: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ABABAB;
+}
+/* 查看全文 */
+.detial {
+	width: 80px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+	font-size: 10px;
+}
+/* 分页 */
+.paging {
+	font-weight:bold;
+	width: 699px;
+	height: 25px;
+	font-size: 12px;
+	color: #1579E3;
+	margin-left: 143px;
+	float: left;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.detial a:hover {
+	font-size: 14px;
+}
+
+.row1 a:hover {
+	font-size: 17px;
+}
+
+.paging a:hover {
+	font-size: 12px;
+}
+
+.copyright{
+	margin-top: 150px;
+	margin-left:320px;
+	width: 380px;
+	height:50px;
+	/* border:1 solid red; */
+	float:left;
+	text-align:center;
+	
+}
